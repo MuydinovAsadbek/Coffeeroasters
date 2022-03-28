@@ -55,7 +55,7 @@ img {
 .site-header {
   display: flex;
   align-items: center;
-  background-color: #f3d7b7;
+  background-color: #f1d1ad;
 }
 .header-container {
   display: flex;
@@ -106,7 +106,7 @@ img {
 
 /* SITE-HERO */
 .site-hero {
-  background-color: #f3d7b7;
+  background-color: #f1d1ad;
   background-image: url("../img/hero-bg.png");
   background-repeat: no-repeat;
   background-position: left calc(50% + 380px) top;
