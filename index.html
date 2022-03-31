@@ -16,8 +16,8 @@
 </head>
 
 <body>
-  <!-- SITE-HEADER -->
-  <header class="site-header">
+  <!-- SITE-footer -->
+  <footer class="site-header">
     <div class="header-container container">
       <img class="header-logo" src="./img/header-logo.svg" alt="header logo img" width="203" height="24">
       <nav class="header-navbar">
@@ -28,7 +28,7 @@
         </ul>
       </nav>
     </div>
-  </header>
+  </footer>
 
 
   <!-- SITE-HERO -->
@@ -38,7 +38,7 @@
         <h1 class="hero-heading">Good coffee is made simply.</h1>
         <p class="hero-text">Start your mornings with the world’s best coffees. Try our expertly curated artisan coffees
           from our best roasters delivered directly to your door, at your schedule.</p>
-        <a class="hero-btn" href="#">Create your plan</a>
+        <a class="button hero-btn" href="#">Create your plan</a>
       </div>
     </div>
   </section>
@@ -50,8 +50,9 @@
 
     <!-- SECTION-COLLECTION-->
     <section class="section-collection container">
+    <div class="collection-wrapper">
       <h2 class="collection-heading">our collection</h2>
-      <div class="collection-wrapper">
+      <div class="collection-item-wrapper">
         <ul class="collection-list">
           <li class="collection-list-item">
             <img class="collection-img" src="./img/red-line.png" alt="collection img" width="450" height="375"
@@ -94,6 +95,7 @@
           </li>
         </ul>
       </div>
+    </div>
     </section>
 
 
@@ -182,9 +184,30 @@
             </div>
           </li>
         </ul>
+        <span class="works-btn-wrapper">
+          <a class="button works-btn" href="#">Create your plan</a>
+        </span>
       </div>
     </section>
   </main>
+
+
+  <!-- SITE-FOOTER -->
+  <footer class="site-footer">
+    <div class="footer-container container">
+      <a class="site-footer-logo-link" href=""><img class="footer-logo" src="./img/footer-logo.svg" alt="footer logo img" width="203" height="24"></a>
+        <ul class="footer-list">
+          <li class="footer-list-item"><a class="footer-link" href="#">Home</a></li>
+          <li class="footer-list-item"><a class="footer-link" href="#">About us</a></li>
+          <li class="footer-list-item"><a class="footer-link" href="#">Create your plan</a></li>
+        </ul>
+        <ul class="social-networks-list">
+          <li class="social-networks-item"> <a class="social-networks-item-link" href=""> <img class="social-networks-img" src="./img/fecbook.svg" alt="" width="30" height="30"></li>
+          <li class="social-networks-item"><a class="social-networks-item-link" href=""><img class="social-networks-img" src="./img/tiwitter.svg" alt="" width="30" height="30"></a></li>
+          <li class="social-networks-item"><a class="social-networks-item-link" href="#"><img class="social-networks-img" src="./img/instagram.svg" alt="" width="30" height="30"></a></li>
+        </ul>
+    </div>
+  </footer>
 </body>
 
 </html>
