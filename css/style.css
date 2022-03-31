@@ -58,6 +58,7 @@ img {
 .button:active {
   opacity: 0.6;
 }
+
 /* HERO-BTN */
 .hero-btn {
   color: #fff;
@@ -139,7 +140,7 @@ img {
   background-color: #f1d1ad;
   background-image: url("../img/hero-bg.png");
   background-repeat: no-repeat;
-  background-position: left calc(50% + 380px) top;
+  background-position: left calc(50% + 400px) top;
 }
 .hero-content {
   width: 564px;
@@ -396,10 +397,10 @@ padding-right: 243px;
   list-style: none;
 }
 .section-works-card-item {
-max-width: 433px;
-margin: 0;
-padding: 20px 28px 40px 20px;
-background-color:#f8f8f2;
+  max-width: 433px;
+  margin: 0;
+  padding: 20px 28px 40px 20px;
+  background-color:#f8f8f2;
 }
 .section-works-card-item:not(:last-child) {
   margin-right: 20px;
@@ -454,7 +455,6 @@ background-color:#f8f8f2;
   justify-content:space-between ;
   align-items: center;
 }
-
 .footer-logo {
   display: block;
   width: 235px;
@@ -473,15 +473,18 @@ background-color:#f8f8f2;
   margin-right: 40px;
 }
 .footer-link {
+  display: inline-block;
   font-size: 16px;
   font-weight: 700;
   line-height: 19px;
   letter-spacing: 1px;
   text-decoration: none;
   color: var(--text-color);
+  transition: 0.5s ease;
 }
 .footer-link:hover {
-  opacity: 0.8;
+  color: var(--hover-color);
+  transition: 0.5s ease;
 }
 .footer-link:hover {
   opacity: 0.6;
@@ -501,7 +504,6 @@ background-color:#f8f8f2;
 .site-footer-logo-link {
   display: inline-block;
 }
-
 .site-footer-logo-link:hover {
  opacity: 0.8;
 }
