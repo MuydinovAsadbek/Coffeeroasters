@@ -13,7 +13,7 @@
 
 /* GLOBAL FOCUS */
 *:focus {
-  outline: 2px dashed #7296ec;
+  outline: 3px dashed var(--hover-color);
   outline-offset: 3px;
   transition: 0.4s ease;
 }
@@ -74,6 +74,8 @@ img {
 /* SITE-HEADER */
 .site-header {
   display: flex;
+  padding-left: 30px;
+  padding-right: 30px;
   align-items: center;
   background-image: url("../img/hero-bg-img.jpg");
   background-repeat: no-repeat;
@@ -95,6 +97,7 @@ img {
 }
 .site-logo-link {
   display: inline-block;
+  flex-shrink: 0;
 }
 .site-logo:hover {
   opacity: 0.8;
@@ -117,7 +120,7 @@ img {
 }
 .header-link {
   display: inline-block;
-  font-size: 16px;
+  font-size: 12px;
   font-weight: 700;
   line-height: 14px;
   letter-spacing: 1px;
@@ -148,7 +151,7 @@ img {
   background-image: url("../img/hero-bc-img.jpg");
   background-repeat: no-repeat;
   background-size: cover;
-  padding-left: 130px;
+  padding-left: 100px;
   justify-content: space-between;
 }
 .site-hero-content {
@@ -203,7 +206,7 @@ img {
 .collection-wrapper {
   padding-top: 50px;
     /* background-color: #e5e5e5; */
-  background-image: url("../img/Rectangle.jpg");
+  background-image: url("../img/collection-bg.jpg");
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -472,7 +475,7 @@ margin-right: auto;
   display: flex;
   align-items: center;
   padding: 160px 64px 216px 164px;
-  background-image: url("../img/Rectangle.jpg");
+  background-image: url("../img/collection-bg.jpg");
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -559,8 +562,8 @@ margin-right: auto;
 .headquarters-heading {
   display: flex;
   justify-content: center;
+  padding-top: 50px;
   margin: 0;
-  margin-bottom: 80px;
   font-size: 50px;
   font-weight: 700;
   line-height: 59px;
@@ -637,6 +640,8 @@ margin-right: auto;
   align-items: center;
   padding-top: 68px;
   padding-bottom: 68px;
+  padding-left: 30px;
+  padding-right: 30px;
   background-color: #f2d3b0;
   background-image: url("../img/footer-bg.png");
   background-repeat: no-repeat;
@@ -688,7 +693,7 @@ margin-right: auto;
   opacity: 0.6;
  }
 .social-networks-item-link {
-  display: inline-block;
+  display: flex;
 }
 .social-networks-item-link:hover {
 opacity: 0.8;
@@ -712,6 +717,9 @@ only screen and (                min-resolution: 2dppx) {
   }
   .section-information-container {
     background-image: url("../img/information-bg@2x.png");
+  }
+  .section-obligation-wrapper {
+    background-image: url("../img/collection-bg@2x.jpg");
   }
   .works-wrapper {
     background-image: url("../img/4@2x.jpg");
