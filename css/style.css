@@ -396,6 +396,7 @@ padding-right: 243px;
   list-style: none;
 }
 .site-works-item-box {
+  flex-shrink:0;
   box-sizing: content-box;
   width: 52px;
   height: 52px;
@@ -701,6 +702,159 @@ opacity: 0.8;
 .social-networks-item-link:active {
   opacity: 0.6;
   }
+
+
+  /* PAGE CREATE PLAN */
+  .section-preferences {
+  }
+
+  .preferences-wrapper {
+    display: flex;
+    flex-grow: 1;
+    justify-content: space-between;
+    padding: 50px 142px 50px 30px;
+  }
+  .preferences-list {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+  }
+
+  .preferences-item-link {
+    display: inline-block;
+    margin-bottom: 35px;
+    text-decoration: none;
+    font-size: 28px;
+    font-weight: 500;
+    line-height: 33px;
+    color: #555;
+    text-transform: uppercase;
+  }
+  .preferences-item-link:hover {
+    margin-bottom: 32px;
+    border-bottom: 3px dashed  #C99B67;
+  }
+
+  .recommended-wrapper {
+   display: flex;
+   flex-direction: column;
+  }
+  .title-wrapper {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  .title-link {
+    display: inline-block;
+    margin: 0;
+    margin-right: 55px;
+    text-transform: uppercase;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 47px;
+    text-decoration: none;
+    color: #000;
+  }
+  .title-img {
+    display: block;
+    width: 17px;
+    height: 10px;
+  }
+  .recommended-list {
+    display: flex;
+    flex-shrink: 0;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+  }
+  .recommended-list-item {
+    width: 205px;
+    margin: 0;
+    padding: 30px 17px 56px 16px;
+    background-color: #C5DBD0;
+  }
+  .recommended-list-item:first-child {
+    background-color: #0A775F;
+  }
+
+  .recommended-list-item:not(:last-child) {
+   margin-right: 20px;
+  }
+  .recommend-item-link {
+    display: inline-block;
+    text-decoration: none;
+  }
+  .recommended-item-heading {
+    display: inline-block;
+    margin: 0;
+    margin-bottom: 10px;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 28px;
+  }
+  .first-child-heading {
+    color: #fff;
+  }
+  .recommended-text {
+    width: 164px;
+    margin: 0;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0px;
+    text-align: left;
+  }
+  .first-child-text {
+    color: #fff;
+  }
+
+  /* QUESTIONS-LIST */
+  .questions-list {
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+    margin: 0;
+    margin-top: 60px;
+    list-style: none;
+  }
+  .questions-item {
+    margin: 0;
+  }
+  .questions-item:not(:last-child) {
+   margin-bottom: 60px;
+  }
+  .questions-item-block {
+    display: flex;
+    align-items: center;
+  }
+  .questions-item-link {
+    display: inline-block;
+    margin-right: 55px;
+    text-decoration: none;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 47px;
+    color: #000;
+  }
+
+  .create-feature-block {
+    max-width: 629px;
+    display: flex;
+    justify-content: end;
+  }
+  .create-feature-box {
+    background-color: #C99B67;
+    padding: 40px 29px 40px 20px;
+  }
+  .create-feature-title {
+  }
+  .create-feature-text {
+    width: 617px;
+  }
+  .margin-bottom-btn {
+    background-color: #0A775F;
+  }
+
 
 
   /* BACKGROUND-IMAGE RETINA */
