@@ -6,29 +6,38 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Coffeeroasters</title>
+
   <!-- GOOGLE FONTS -->
+
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+
   <!-- STYLES -->
-  <link rel="stylesheet" href="./css/style.css">
-  <link rel="stylesheet" href="./css/normalize.css">
+
+  <!-- <link rel="stylesheet" href="./css/style.css">
+  <link rel="stylesheet" href="./css/normalize.css"> -->
+  <link rel="stylesheet" href="css/min.css">
 </head>
 
 <body>
 
   <!-- SITE-HEADER -->
   <header class="site-header">
-    <div class="header-container container">
-      <a class="site-logo-link" href="#"><img class="site-logo" src="./img/header-logo.svg" alt="site logo img"
-          width="203" height="24"></a>
-      <nav class="header-navbar">
-        <ul class="header-list">
-          <li class="header-list-item"><a class="header-link" href="#">Home</a></li>
-          <li class="header-list-item"><a class="header-link" href="about.html">About us</a></li>
-          <li class="header-list-item"><a class="header-link" href="create-plan.html">Create your plan</a></li>
-        </ul>
-      </nav>
+    <div class="container">
+      <div class="header-container">
+        <img class="logotip-img" src="img/logotip.png" alt="logotip img" width="160" height="160"
+          srcset="img/logotip.png 1x, img/logotip.png@@2x 2x">
+        <a class="site-logo-link" href="#"><img class="site-logo" src="./img/site-logo.svg" alt="site logo img"
+            width="203" height="24"></a>
+        <nav class="sitenav">
+          <ul class="sitenav-list">
+            <li class="sitenav-item"><a class="sitenav-link" href="#">Home</a></li>
+            <li class="sitenav-item"><a class="sitenav-link" href="about.html">About us</a></li>
+            <li class="sitenav-item"><a class="sitenav-link" href="create-plan.html">Create your plan</a></li>
+          </ul>
+        </nav>
+      </div>
     </div>
   </header>
 
@@ -41,7 +50,7 @@
           <h1 class="site-hero-title">Good coffee <br> is made simply.</h1>
           <p class="site-hero-text">Start your mornings with the world's best coffees. Try our expertly curated artisan
             coffees from our best roasters delivered directly to your door, at your schedule</p>
-          <a class="site-hero-link button" href="#">Create your plan</a>
+          <a class="button site-hero-button" href="#">Create your plan</a>
         </div>
         <img class="site-hero-img" src="img/hero-img.jpg" alt="cola" width="710" height="696"
           srcset="img/hero-img.jpg 1x, img/hero-img.jpg@2x 2x">
@@ -57,6 +66,14 @@
     <section class="section-collection">
       <div class="container">
         <div class="collection-wrapper">
+          <img class="thin-leaf" src="img/thin-leaf.png" alt="" width="201" height="300"
+            srcset="img/thin-leaf.png 1x img/thin-leaf.png@2x 2x">
+          <img class="transparent-leaf-img" src="img/transparent-leaf.png" alt="transparent leaf img" width="88"
+            height="195" srcset="img/transparent-leaf.png 1x, img/transparent-leaf.png@2x 2x">
+          <img class="thick-leaf-img" src="img/thick-leaf.png" alt="transparent leaf img" width="193" height="477"
+            srcset="img/thick-leaf.png 1x, img/thick-leaf.png@2x 2x">
+          <img class="transparent-thick-leaf-img" src="img/transparent-thick-leaf.png" alt="transparent thick leaf img"
+            width="158" height="269" srcset="img/transparent-thick-leaf.png 1x, img/transparent-thick-leaf.png@2x 2x">
           <h2 class="collection-heading">our collection</h2>
           <div class="collection-item-wrapper">
             <ul class="collection-list">
@@ -110,100 +127,112 @@
 
 
     <!-- SECTION-INFORMATION -->
-    <section class="section-information container">
-      <div class="section-information-container">
-        <div class="information-wrapper">
-          <h2 class="information-content-heading">Why choose us?</h2>
-          <p class="information-content-text">A large part of our role is choosing which particular coffees will be
-            featured
-            in our range. This means working closely with the best coffee growers to give
-            you a more impactful experience on every level.</p>
+    <section class="section-information">
+      <div class="container">
+        <div class="section-information-container">
+          <img class="group-img" src="img/Group.png" alt="photo" width="128" height="135"
+            srcset="img/Group.png 1x, img/Group.png@2x 2x">
+          <div class="information-wrapper">
+            <h2 class="information-content-heading">Why choose us?</h2>
+            <p class="information-content-text">A large part of our role is choosing which particular coffees will be
+              featured
+              in our range. This means working closely with the best coffee growers to give
+              you a more impactful experience on every level.</p>
+          </div>
+          <ul class="information-list-img">
+            <li class="list-img-item">
+              <img class="information-img" src="./img/coffee-and-men.png" alt="coffee and men photo" width="433"
+                height="500" srcset="./img/coffee-and-men.png 1x, ./img/coffee-and-men.png@2x 2x">
+              <div class="information-bottom-wrapper-content">
+                <a class="information-link" href="#">Best quality</a>
+                <p class="information-item-text">Discover an endless variety of the world’s best artisan coffee from
+                  each
+                  of
+                  our roasters.</p>
+              </div>
+            </li>
+
+            <li class="list-img-item"><img class="information-img" src="./img/brewed-coffee.png"
+                alt="brewed coffee photo" width="433" height="500"
+                srcset="./img/brewed-coffee.png 1x, ./img/brewed-coffee.png@2x 2x">
+              <div class="information-bottom-wrapper-content">
+                <a class="information-link" href="#">Exclusive benefits</a>
+                <p class="information-item-text">Special offers and swag when you subscribe, including 30% off your
+                  first
+                  shipment.</p>
+              </div>
+            </li>
+
+            <li class="list-img-item"><img class="information-img" src="./img/coffee-and-girl.png"
+                alt="coffee and girl photo" width="433" height="500"
+                srcset="./img/coffee-and-girl.png 1x, ./img/coffee-and-girl.png@2x 2x">
+              <div class="information-bottom-wrapper-content">
+                <a class="information-link" href="#">Free shipping</a>
+                <p class="information-item-text">We cover the cost and coffee is delivered fast. Peak freshness:
+                  guaranteed.
+                </p>
+              </div>
+            </li>
+
+          </ul>
         </div>
-        <ul class="information-list-img">
-          <li class="list-img-item">
-            <img class="information-img" src="./img/coffee-and-men.png" alt="coffee and men photo" width="433"
-              height="500" srcset="./img/coffee-and-men.png 1x, ./img/coffee-and-men.png@2x 2x">
-            <div class="information-bottom-wrapper-content">
-              <a class="information-link" href="#">Best quality</a>
-              <p class="information-item-text">Discover an endless variety of the world’s best artisan coffee from each
-                of
-                our roasters.</p>
-            </div>
-          </li>
-
-          <li class="list-img-item"><img class="information-img" src="./img/brewed-coffee.png" alt="brewed coffee photo"
-              width="433" height="500" srcset="./img/brewed-coffee.png 1x, ./img/brewed-coffee.png@2x 2x">
-            <div class="information-bottom-wrapper-content">
-              <a class="information-link" href="#">Exclusive benefits</a>
-              <p class="information-item-text">Special offers and swag when you subscribe, including 30% off your first
-                shipment.</p>
-            </div>
-          </li>
-
-          <li class="list-img-item"><img class="information-img" src="./img/coffee-and-girl.png"
-              alt="coffee and girl photo" width="433" height="500"
-              srcset="./img/coffee-and-girl.png 1x, ./img/coffee-and-girl.png@2x 2x">
-            <div class="information-bottom-wrapper-content">
-              <a class="information-link" href="#">Free shipping</a>
-              <p class="information-item-text">We cover the cost and coffee is delivered fast. Peak freshness:
-                guaranteed.
-              </p>
-            </div>
-          </li>
-
-      </ul>
       </div>
     </section>
 
 
     <!-- SECTION-WORKS -->
-    <section class="section-works container">
-      <div class="works-wrapper">
-        <h2 class="section-works-heading">How it works</h2>
+    <section class="section-works">
+      <div class="container">
+        <div class="works-wrapper">
+          <img class="works-sticker-img" src="img/sticker.png" alt="sticker img" width="192" height="150"
+            srcset="img/sticker.png 1x, img/sticker.png@2x 2x">
+          <h2 class="section-works-heading">How it works</h2>
 
 
-        <!-- SITE-WORKS-LIST-BOX -->
-        <ul class="site-works-list-box">
-          <li class="site-works-item-box"></li>
-          <li class="site-works-item-box"></li>
-          <li class="site-works-item-box"></li>
-        </ul>
+          <!-- SITE-WORKS-LIST-BOX -->
+          <ul class="site-works-list-box">
+            <li class="site-works-item-box"></li>
+            <li class="site-works-item-box"></li>
+            <li class="site-works-item-box"></li>
+          </ul>
 
 
-        <!-- SECTION-WORKS-CARD -->
-        <ul class="section-works-card">
-          <li class="section-works-card-item">
-            <p class="section-works-card-item-number">01</p>
-            <div class="section-works-card-item-content">
-              <h3 class="section-works-card-item-heading">Pick your coffee</h3>
-              <p class="section-works-card-item-text">Select from our evolving range of artisan coffees. Our beans are
-                ethically sourced and we pay fair prices for them. There are new coffees in all profiles every month for
-                you to try out.</p>
-            </div>
-          </li>
+          <!-- SECTION-WORKS-CARD -->
+          <ul class="section-works-card">
+            <li class="section-works-card-item">
+              <p class="section-works-card-item-number">01</p>
+              <div class="section-works-card-item-content">
+                <h3 class="section-works-card-item-heading">Pick your coffee</h3>
+                <p class="section-works-card-item-text">Select from our evolving range of artisan coffees. Our beans are
+                  ethically sourced and we pay fair prices for them. There are new coffees in all profiles every month
+                  for
+                  you to try out.</p>
+              </div>
+            </li>
 
-          <li class="section-works-card-item">
-            <p class="section-works-card-item-number">02</p>
-            <div class="section-works-card-item-content">
-              <h3 class="section-works-card-item-heading">Choose the frequency</h3>
-              <p class="section-works-card-item-text">Customize your order frequency, quantity, even your roast style
-                and grind type. Pause, skip or cancel your subscription with no commitment through our online portal.
-              </p>
-            </div>
-          </li>
+            <li class="section-works-card-item">
+              <p class="section-works-card-item-number">02</p>
+              <div class="section-works-card-item-content">
+                <h3 class="section-works-card-item-heading">Choose the frequency</h3>
+                <p class="section-works-card-item-text">Customize your order frequency, quantity, even your roast style
+                  and grind type. Pause, skip or cancel your subscription with no commitment through our online portal.
+                </p>
+              </div>
+            </li>
 
-          <li class="section-works-card-item">
-            <p class="section-works-card-item-number">03</p>
-            <div class="section-works-card-item-content">
-              <h3 class="section-works-card-item-heading">Receive and enjoy!</h3>
-              <p class="section-works-card-item-text">We ship your package within 48 hours, freshly roasted. Sit back
-                and enjoy award-winning world-class coffees curated to provide a distinct tasting experience.</p>
-            </div>
-          </li>
-        </ul>
-        <span class="works-btn-wrapper">
-          <a class="button works-btn" href="#">Create your plan</a>
-        </span>
+            <li class="section-works-card-item">
+              <p class="section-works-card-item-number">03</p>
+              <div class="section-works-card-item-content">
+                <h3 class="section-works-card-item-heading">Receive and enjoy!</h3>
+                <p class="section-works-card-item-text">We ship your package within 48 hours, freshly roasted. Sit back
+                  and enjoy award-winning world-class coffees curated to provide a distinct tasting experience.</p>
+              </div>
+            </li>
+          </ul>
+          <span class="works-btn-wrapper">
+            <a class="button works-button" href="#">Create your plan</a>
+          </span>
+        </div>
       </div>
     </section>
   </main>
@@ -212,12 +241,13 @@
   <!-- SITE-FOOTER -->
   <footer class="site-footer">
     <div class="footer-wrapper container">
-      <a href="#" class="site-logo-link"> <img class="site-logo" src="./img/header-logo.svg" alt="site logo img"
+      <a href="#" class="site-logo-link"> <img class="site-logo" src="./img/site-logo.svg" alt="site logo img"
           width="203" height="24"> </a>
-      <ul class="header-list">
-        <li class="header-list-item"><a class="header-link" href="#">Home</a></li>
-        <li class="header-list-item"><a class="header-link" href="about.html">About us</a></li>
-        <li class="header-list-item"><a class="header-link" href="create-plan.html">Create your plan</a></li>
+      <ul class="sitenav-list">
+        <li class="sitenav-item"><a class="sitenav-link sitenav-link-footer" href="#">Home</a></li>
+        <li class="sitenav-item"><a class="sitenav-link sitenav-link-footer" href="about.html">About us</a></li>
+        <li class="sitenav-item"><a class="sitenav-link sitenav-link-footer" href="create-plan.html">Create your
+            plan</a></li>
       </ul>
       <ul class="social-networks-list">
         <li class="social-networks-item"> <a class="social-networks-item-link" href="#"> <img

@@ -6,13 +6,18 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Coffeeroasters</title>
+
   <!-- GOOGLE FONTS -->
+
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+
   <!-- STYLES -->
-  <link rel="stylesheet" href="./css/style.css">
-  <link rel="stylesheet" href="./css/normalize.css">
+
+  <!-- <link rel="stylesheet" href="./css/style.css">
+  <link rel="stylesheet" href="./css/normalize.css"> -->
+  <link rel="stylesheet" href="css/min.css">
 </head>
 
 <body>
@@ -20,16 +25,20 @@
 
   <!-- SITE-HEADER -->
   <header class="site-header">
-    <div class="header-container container">
-      <a class="site-logo-link" href="#"><img class="site-logo" src="./img/header-logo.svg" alt="site logo img"
-          width="203" height="24"></a>
-      <nav class="header-navbar">
-        <ul class="header-list">
-          <li class="header-list-item"><a class="header-link" href="index.html">Home</a></li>
-          <li class="header-list-item"><a class="header-link" href="#">About us</a></li>
-          <li class="header-list-item"><a class="header-link" href="create-plan.html">Create your plan</a></li>
-        </ul>
-      </nav>
+    <div class="container">
+      <div class="header-container">
+        <img class="logotip-img" src="img/logotip.png" alt="logotip img" width="160" height="160"
+          srcset="img/logotip.png 1x, img/logotip.png@@2x 2x">
+        <a class="site-logo-link" href="#"><img class="site-logo" src="./img/site-logo.svg" alt="site logo img"
+            width="203" height="24"></a>
+        <nav class="sitenav">
+          <ul class="sitenav-list">
+            <li class="sitenav-item"><a class="sitenav-link" href="index.html">Home</a></li>
+            <li class="sitenav-item"><a class="sitenav-link" href="about.html">About us</a></li>
+            <li class="sitenav-item"><a class="sitenav-link" href="create-plan.html">Create your plan</a></li>
+          </ul>
+        </nav>
+      </div>
     </div>
   </header>
 
@@ -59,7 +68,9 @@
     <section class="section-obligation">
       <div class="container">
         <div class="section-obligation-wrapper">
-          <img class="obligation-wrapper-img" src="img/coffe.png" alt="coffee photo" width="360" height="364"
+          <img class="thin-leaf" src="img/thin-leaf.png" alt="" width="201" height="300"
+            srcset="img/thin-leaf.png 1x img/thin-leaf.png@2x 2x">
+          <img class="coffee-img" src="img/coffe.png" alt="coffee photo" width="360" height="364"
             srcset="img/coffe.png 1x, img/coffe.png@2x 2x">
           <div class="wrapper-text-content">
             <h2 class="obligation-heading">Our commitment</h2>
@@ -80,7 +91,8 @@
 
 
     <!-- SECTION-QUALITY -->
-    <section class="section-quality container">
+    <section class="section-quality">
+      <div class="container">
       <div class="section-quality-wrapper">
         <div class="quality-warapper-content">
           <h2 class="quality-heading">Uncompromising quality</h2>
@@ -92,11 +104,13 @@
         <img class="quality-img" src="img/coffee-and-girl.png" alt="coffe and gril photos" width="550" height="500"
           srcset="img/coffee-and-girl.png 1x, img/coffee-and-girl.png@2x 2x">
       </div>
+    </div>
     </section>
 
 
     <!-- SECTION-HEADQUARTERS -->
-    <section class="section-headquarters container">
+    <section class="section-headquarters">
+      <div class="container">
       <div class="headquarters-wrapper">
         <h2 class="headquarters-heading">Our headquarters</h2>
         <ul class="headquarters-list">
@@ -141,6 +155,7 @@
           </li>
         </ul>
       </div>
+      </div>
     </section>
   </main>
 
@@ -148,12 +163,13 @@
   <!-- SITE-FOOTER -->
   <footer class="site-footer">
     <div class="footer-wrapper container">
-      <a href="#" class="site-logo-link"> <img class="site-logo" src="./img/header-logo.svg" alt="site logo img"
+      <a href="#" class="site-logo-link"> <img class="site-logo" src="./img/site-logo.svg" alt="site logo img"
           width="203" height="24"> </a>
-      <ul class="header-list">
-        <li class="header-list-item"><a class="header-link" href="#">Home</a></li>
-        <li class="header-list-item"><a class="header-link" href="index.html">About us</a></li>
-        <li class="header-list-item"><a class="header-link" href="create-plan.html">Create your plan</a></li>
+      <ul class="sitenav-list">
+        <li class="sitenav-item"><a class="sitenav-link sitenav-link-footer" href="#">Home</a></li>
+        <li class="sitenav-item"><a class="sitenav-link sitenav-link-footer" href="about.html">About us</a></li>
+        <li class="sitenav-item"><a class="sitenav-link sitenav-link-footer" href="create-plan.html">Create your
+            plan</a></li>
       </ul>
       <ul class="social-networks-list">
         <li class="social-networks-item"> <a class="social-networks-item-link" href="#"> <img
